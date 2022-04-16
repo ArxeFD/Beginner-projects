@@ -3,7 +3,6 @@ from time import sleep
 
 list = ["rock", "paper", "scissors"]
 
-
 play = input("Wanna play rock paper scissors? ").lower()
 
 if play == "yes":
@@ -14,7 +13,6 @@ else:
 
 sleep(1.2)
 print("You'll have 3 tries!")
-
 
 points = 0
 tries = 0
